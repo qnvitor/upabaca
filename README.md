@@ -52,9 +52,10 @@ Os sensores coletam:
 
 A lógica de irrigação funciona automaticamente baseada em:
 
-- Umidade do solo  
-- Horário do dia  
-- Presença de água no reservatório  
+- Luminosidade
+- Umidade do solo
+- Horário do dia
+- Presença de água no reservatório
 
 <br>
 
@@ -65,7 +66,7 @@ A lógica de irrigação funciona automaticamente baseada em:
 ```
 ESP32 ───────────────────────── Sensores / Atuadores
 --------------------------------------------------------------
-GPIO 17  ─────────────── LDR (Sensor de Luminosidade)
+GPIO 32  ─────────────── LDR (Sensor de Luminosidade)
 GPIO 34  ─────────────── Sensor de Umidade do Solo (Analógico)
 GPIO 23  ─────────────── DHT11 (Temperatura e Umidade)
 GPIO 27  ─────────────── Sensor de Boia (Nível de Água)
@@ -95,7 +96,7 @@ Campos recomendados no ThingSpeak:
 
 | Campo | Conteúdo |
 |-------|----------|
-| **field1** | Luminosidade (1 luz baixa / 0 luz alta) |
+| **field1** | Luminosidade |
 | **field2** | Umidade do Solo |
 | **field3** | Umidade do Ar (%) |
 | **field4** | Temperatura (°C) |
