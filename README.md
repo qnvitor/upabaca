@@ -1,5 +1,8 @@
-<h1 align="center"> Sistema IoT de Monitoramento de Planta 🌱 </h1>
+<h1 align="center"> Upabaçá 🌱 </h1>
 
+<p align="center">
+Sistema IoT de Monitoramento de Plantas.
+</p>
 <p align="center">
 Projeto IoT completo utilizando ESP32, sensores ambientais e integração com o ThingSpeak para monitoramento inteligente de plantas.
 </p>
@@ -16,6 +19,10 @@ Projeto IoT completo utilizando ESP32, sensores ambientais e integração com o 
 </p>
 
 <br>
+
+<p align="center">
+  <img alt="typing quotes game" src="https://github.com/user-attachments/assets/5cc77abe-28e5-4aa1-abe4-566fe0a743cc" width="90%">
+</p>
 
 ## 🚀 Tecnologias
 
